@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "complete-project", "complete-project", "{6E28A2F1-955D-2CCA-2DB2-82A393542B41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{680C3B15-E3AD-4C78-CD28-AD2BFCDF0C43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookCrudApi", "complete-project\backend\BookCrudApi\BookCrudApi.csproj", "{EA5BDF79-48C4-F6C7-5F5D-E532565FBD11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA5BDF79-48C4-F6C7-5F5D-E532565FBD11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA5BDF79-48C4-F6C7-5F5D-E532565FBD11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA5BDF79-48C4-F6C7-5F5D-E532565FBD11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA5BDF79-48C4-F6C7-5F5D-E532565FBD11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{680C3B15-E3AD-4C78-CD28-AD2BFCDF0C43} = {6E28A2F1-955D-2CCA-2DB2-82A393542B41}
+		{EA5BDF79-48C4-F6C7-5F5D-E532565FBD11} = {680C3B15-E3AD-4C78-CD28-AD2BFCDF0C43}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAF28DAD-1FE7-453D-910D-3AB0A6493938}
+	EndGlobalSection
+EndGlobal
